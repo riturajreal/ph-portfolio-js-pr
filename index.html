@@ -27,13 +27,81 @@
     </div>
 
     <!-- #HEADER -->
-    <header class="header" data-header>
+    <header class="header active" data-header>
         <div class="container">
 
             <a href="#" class="logo">
                 <img src="./assets/images/logo.svg" width="40" height="40" alt="Richard home">
-
             </a>
+
+            <button class="nav-open-btn" aria-label="open menu">
+                <img src="./assets/images/menu.svg" alt="menu icon" width="17" height="17" data-nav-toggler>
+            </button>
+
+
+            <!-- nav -->
+            <nav class="navbar" data-header>
+
+                <!-- logo -->
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/nav-logo.svg" width="140" height="40" alt="Richard home" class="img">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu">
+                        <span class="span one"></span>
+                        <span class="span two"></span>
+                    </button>
+                </div>
+
+                <!-- nav content -->
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#services" class="navbar-link" data-nav-link>Services</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
+                    </li>
+
+                </ul>
+
+                <button class="login-btn">
+                    <img src="./assets/images/user.svg" alt="user icon" width="21" height="21">
+                    <span class="span">Login</span>
+                </button>
+
+                <p class="navbar-title">My Address</p>
+
+                <address class="navbar-text">
+                    3287 Indiana Avenue, Waialua, Hawaii
+                </address>
+
+                <p class="navbar-text">
+                    Urgent issue? call us at
+                    <a href="#" class="contact-link">808-561-3846</a>
+                </p>
+
+            </nav>
+
+            <div class="overlay " data-nav-toggler data-overlay></div>
 
         </div>
     </header>
