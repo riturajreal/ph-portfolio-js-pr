@@ -18,9 +18,9 @@ window.addEventListener("load", function() {
 // MOBILE NAV TOGGLER
 
 const [ navTogglers, navLinks, navbar, overlay] = [
-    document.querySelectorAll("[data-nav-toggler]"),
+    document.querySelectorAll("[data-nav-toggler]"), // toggle icon
     document.querySelectorAll("[data-nav-link"),
-    document.querySelector("[data-navbar"),
+    document.querySelector("[data-navbar"), // navbar 
     document.querySelector("[data-overlay"),
 ];
 
